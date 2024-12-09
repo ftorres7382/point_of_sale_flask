@@ -1,0 +1,8 @@
+[flask_settings]
+static_folder="./templates/assets"
+template_folder="./templates"
+
+[html_routes]
+# Home based on flask setup
+"/" = "index.html"
+"/menu" = "menu.html"
